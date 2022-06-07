@@ -1,0 +1,36 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #3751FF;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cap {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.darvienasdivas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+
+    gap:20px;
+}
+.imger {
+    height: 100vh;
+    width: 60%;
+}
