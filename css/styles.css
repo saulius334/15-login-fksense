@@ -1,0 +1,88 @@
+@import '../css/body.css';
+@import '../css/layout.css';
+
+.cap {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.cgray {
+    color: #ccc;
+}
+.column {
+    gap: 60px;
+    padding: 80px 50px;
+}
+.title {
+    color: var(--main-color);
+}
+.para {
+    font-size: 42px;
+}
+.form-grp input {
+    width: 100%;
+    padding: 40px 15px 10px;
+    position: relative;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+input:focus {
+    outline-width: 0;
+    border-left: 4px solid var(--main-color);
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+}
+.remember > div {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.remember > a {
+    color: gray;
+}
+.remember > a:hover {
+    text-decoration: underline;
+}
+.buttons {
+    display: flex;
+    gap: 5%;
+}
+.buttons > a {
+    width: 30%;
+    border: 2px solid var(--main-color);
+    text-align: center;
+    padding-block: 15px;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: var(--main-color);
+    color: white;
+    transition:0.5s;
+}
+.buttons > a:hover {
+    background-color: white;
+    color: var(--main-color);
+    box-shadow: 2px 2px 5px gray;
+}
+.buttons > a:last-child {
+    background-color: white;
+    color: var(--main-color);
+}
+.buttons > a:last-child:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    color: gray;
+}
+.socials > * {
+    width: 25%;
+}
+.socials > a {
+    color: var(--main-color);
+    font-weight: bold;
+}

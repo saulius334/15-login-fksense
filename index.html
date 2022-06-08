@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Login</title>
 </head>
 <body>
@@ -12,19 +12,25 @@
    
         <div class="darvienasdivas">
             <div class="column">
-                <h1 class="cap">fcuksense</h1>
-                <h2 class="cap">artificial intelligence driving results for the travel industry</h2>
-                <p>Welcome Back, Please login to your account</p>
-                <div class="einput">
-                    <label class="cap">email address</label>
-                    <input type="email">
-                    <div class="pinput">
-                    <label class="cap">password</label>
-                    <input type="password">
+                <h1 class="title cap">fcuksense</h1>
+                <h2 class="para cap">artificial intelligence driving results for the travel industry</h2>
+                <p class="cgray">Welcome Back, Please login to your account</p>
+                <form>
+                    <div class="form-grp">
+                        <input type="email">
+                        <label class="label-grp cap">email address</label>
                     </div>
-                </div>
+             
+                    <div class="form-grp">
+                        <input type="password">
+                        <label class="label-grp cap">password</label>
+                    </div>
+                </form>
                 <div class="remember">
-                    <input class="cap" type="checkbox">
+                    <div class="cgray">
+                    <input id="remember" class="cap" type="checkbox">
+                    <label for="remember">Remember me?</label>
+                </div>
                     <a class="cap" href="#">forget password?</a>
                 </div>
                 <div class="buttons">
